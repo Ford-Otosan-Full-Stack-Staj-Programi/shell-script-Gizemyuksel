@@ -12,25 +12,25 @@ To use the script, follow these steps:
 
 3. Check the permissions of the file:
 
-ls -l run.sh
+`ls -l run.sh`
 
 This command will list the permissions of the file.
 
 4. Grant execute permission to the file:
 
-chmod +x run.sh
+`chmod +x run.sh`
 
 This command grants execute permission to the run.sh file.
 
 5. Verify the permissions of the file again:
 
-ls -l run.sh
+`ls -l run.sh`
 
-You should now see an 'x' (execution) permission among the file's permissions.
+You should now see an `'x'` (execution) permission among the file's permissions.
 
 6. Run the script with the following command:
 
-./run.sh <keyword> <directory>
+`./run.sh <keyword> <directory>`
 
 Replace `<keyword>` with the word you want to search for, and `<directory>` with the path to the directory you want to search within.
 
@@ -40,7 +40,7 @@ Replace `<keyword>` with the word you want to search for, and `<directory>` with
 
 To illustrate how the script works, consider the following example:
 
-./run.sh hello /path/to/directory
+`./run.sh hello /path/to/directory`
 
 
 
